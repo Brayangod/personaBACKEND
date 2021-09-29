@@ -14,6 +14,10 @@ public class Pais {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String nombre;
+	
+	public Pais() {
+		
+	}
 	public Pais(String nombre) {
 		super();
 		this.nombre = nombre;
